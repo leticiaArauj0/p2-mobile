@@ -17,7 +17,7 @@ export function HomeRecipe ({ navigation }: any) {
             <Image source={{uri: item.imagem}} style={styles.image} />
             <View style={styles.textContainer}>
               <Text style={styles.name}>{item.titulo}</Text>
-              <Text>{item.descricao}</Text>
+              <Text style={styles.descricao}>{item.descricao}</Text>
             </View>
           </TouchableOpacity>
         )}

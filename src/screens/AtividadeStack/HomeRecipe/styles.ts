@@ -30,6 +30,10 @@ export const styles = StyleSheet.create({
         paddingBottom: 5,
     },
 
+    descricao: {
+        color: '#000000'
+    },
+
     textContainer: {
         width: '70%'
     }
